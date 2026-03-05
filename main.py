@@ -2,6 +2,8 @@
 from PyQt6 import QtWidgets, uic
 import sys
 from controllers.login_controller import LoginController
+from PyQt6.QtCore import pyqtSignal
+from PyQt6.QtGui import QPalette
 
 class Login(QtWidgets.QMainWindow):
     def __init__(self):

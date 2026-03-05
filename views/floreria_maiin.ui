@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1350</width>
-    <height>610</height>
+    <height>788</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -335,7 +335,7 @@ border-radius:10px;</string>
              <number>0</number>
             </property>
             <property name="rightMargin">
-             <number>90</number>
+             <number>0</number>
             </property>
             <item>
              <widget class="QPushButton" name="pushButton_7">
@@ -347,6 +347,11 @@ border-radius:10px;</string>
               </property>
               <property name="cursor">
                <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
               </property>
               <property name="text">
                <string>Undo</string>
@@ -364,10 +369,28 @@ border-radius:10px;</string>
               <property name="cursor">
                <cursorShape>PointingHandCursor</cursorShape>
               </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+              </property>
               <property name="text">
                <string>Redo</string>
               </property>
              </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
             </item>
            </layout>
           </item>
@@ -376,6 +399,12 @@ border-radius:10px;</string>
        </item>
        <item>
         <widget class="QFrame" name="frame_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>250</height>
+          </size>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -410,6 +439,22 @@ border-radius:10px;</string>
                </widget>
               </item>
               <item>
+               <spacer name="horizontalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
                <widget class="QLineEdit" name="lineEdit">
                 <property name="maximumSize">
                  <size>
@@ -435,7 +480,8 @@ border-radius:10px;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">border-image:url(&quot;img/peonia.png&quot;);</string>
+                 <string notr="true">border-image:url(&quot;img/peonia.png&quot;);
+border-radius:5px;</string>
                 </property>
                 <property name="text">
                  <string/>
@@ -451,7 +497,8 @@ border-radius:10px;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">border-image:url(&quot;img/lily.png&quot;);</string>
+                 <string notr="true">border-image:url(&quot;img/lily.png&quot;);
+border-radius:5px;</string>
                 </property>
                 <property name="text">
                  <string/>
@@ -467,7 +514,8 @@ border-radius:10px;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">border-image:url(&quot;img/camelia.png&quot;);</string>
+                 <string notr="true">border-image:url(&quot;img/camelia.png&quot;);
+border-radius:5px;</string>
                 </property>
                 <property name="text">
                  <string/>
@@ -483,7 +531,8 @@ border-radius:10px;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">border-image:url(&quot;img/rosa.png&quot;);</string>
+                 <string notr="true">border-image:url(&quot;img/rosa.png&quot;);
+border-radius:5px;</string>
                 </property>
                 <property name="text">
                  <string/>
@@ -499,7 +548,8 @@ border-radius:10px;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">border-image:url(&quot;img/crisantemo.png&quot;);</string>
+                 <string notr="true">border-image:url(&quot;img/crisantemo.png&quot;);
+border-radius:5px;</string>
                 </property>
                 <property name="text">
                  <string/>
@@ -513,7 +563,9 @@ border-radius:10px;</string>
               <item>
                <widget class="QPushButton" name="pushButton_14">
                 <property name="styleSheet">
-                 <string notr="true">selection-background-color: rgb(170, 170, 255);</string>
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
                 </property>
                 <property name="text">
                  <string>+</string>
@@ -522,6 +574,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_15">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>-</string>
                 </property>
@@ -529,6 +586,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_17">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>+</string>
                 </property>
@@ -536,6 +598,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_18">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>-</string>
                 </property>
@@ -543,6 +610,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_16">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>+</string>
                 </property>
@@ -551,7 +623,9 @@ border-radius:10px;</string>
               <item>
                <widget class="QPushButton" name="pushButton_13">
                 <property name="styleSheet">
-                 <string notr="true"/>
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
                 </property>
                 <property name="text">
                  <string>-</string>
@@ -560,6 +634,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_12">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>+</string>
                 </property>
@@ -567,6 +646,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_11">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>-</string>
                 </property>
@@ -574,6 +658,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_10">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>+</string>
                 </property>
@@ -581,6 +670,11 @@ border-radius:10px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_9">
+                <property name="styleSheet">
+                 <string notr="true">border-radius:15px;
+background-color: rgb(194, 193, 231);
+padding:10px;</string>
+                </property>
                 <property name="text">
                  <string>-</string>
                 </property>
@@ -601,26 +695,120 @@ border-radius:10px;</string>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QFrame" name="frame_8">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <spacer name="horizontalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_13">
+                 <property name="minimumSize">
+                  <size>
+                   <width>15</width>
+                   <height>15</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>15</width>
+                   <height>15</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border-image:url(&quot;img/camicon.png&quot;);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>350</width>
+              <height>350</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>600</width>
+              <height>600</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="styleSheet">
+                  <string notr="true">border-image:url(&quot;img/ramo.png&quot;);
+border-radius:25px;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
         </widget>
-       </item>
-       <item>
-        <spacer name="horizontalSpacer_6">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
        </item>
       </layout>
      </widget>
     </item>
     <item>
      <spacer name="horizontalSpacer_5">
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
@@ -735,7 +923,7 @@ border-radius:25px;</string>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>15</pointsize>
               </font>
              </property>
              <property name="text">
@@ -782,7 +970,7 @@ border-radius:25px;</string>
             <widget class="QLabel" name="label_10">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>12</pointsize>
               </font>
              </property>
              <property name="text">
@@ -826,7 +1014,7 @@ border-radius:25px;</string>
             <widget class="QLabel" name="label_11">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>12</pointsize>
               </font>
              </property>
              <property name="styleSheet">
