@@ -6,6 +6,7 @@ from PyQt6.QtCore import pyqtSignal
 from PyQt6.QtGui import QPalette
 
 class Login(QtWidgets.QMainWindow):
+    login_succesfull = pyqtSignal()
     def __init__(self):
         super().__init__()
         uic.loadUi("./views/loginn.ui", self)
